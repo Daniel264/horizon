@@ -6,7 +6,7 @@ import React from "react";
 
 export default function Home() {
     return (
-        <>
+        <div className="space-y-10">
             <SEO title="Home" />
 
             {/* <main className="flex min-h-screen flex-col items-center p-5"> */}
@@ -20,6 +20,6 @@ export default function Home() {
             <Header />
             <Hero />
 
-        </>
+        </div>
     );
 }
