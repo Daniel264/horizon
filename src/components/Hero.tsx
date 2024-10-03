@@ -4,14 +4,14 @@ import { Button } from "./Button";
 export const Hero = () => {
     return ( 
         <div style={{ backgroundImage: "url('/assets/images/background.svg')" }} className="flex min-h-screen w-full flex-col items-center justify-center pt-12 lg:flex-row ">
-            <div className="flex flex-col items-center text-center space-y-7 w-full">
-                <h1 className="text-6xl font-semibold text-[#8B5CF6] ">
+            <div className="flex flex-col items-center text-left space-y-7 w-full">
+                <h1 className="text-7xl font-semibold text-[#8B5CF6] ">
                     Insightful trends <br />
                     <span className="text-black">to discover real <br /> opportunities</span>
                 </h1>
-                <div className="text-lg font-medium text-[#374151]">
+                <div className="text-xl font-medium text-[#374151] px-28">
                     <p>
-                        Step into the new era of strategic decision making. Horizon empowers <br /> businesses in the marketing space with unparalleled data analytics.
+                        Step into the new era of strategic decision making. Horizon empowers  businesses in the marketing space with unparalleled data analytics.
                     </p>
                 </div>
                 <div className="space-x-7">
@@ -23,7 +23,7 @@ export const Hero = () => {
                     </Button>
                 </div>
             </div>
-            <div className="w-full">
+            <div className="w-full ">
                 <Image src="/assets/images/hero-img.svg" alt={"Image showing transacrions"} width={1000} height={1000} />
             </div>
         </div>
