@@ -17,9 +17,7 @@ export default function Home() {
                 </div>
             </main> */}
             <Header />
-            <Button backgroundColor={"bg-purple-500"} color={"text-white"}>
-                Get this Template
-            </Button>
+
         </>
     );
 }

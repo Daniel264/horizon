@@ -1,14 +1,15 @@
 import React from "react";
+import { Button } from "./Button";
 
 export const Header = () => {
     return (
-        <div>
+        <div className="flex h-fit w-full items-center justify-between px-12 py-5">
             <div>
                 <h1 className="text-2xl font-bold">Horizon</h1>
             </div>
             <div>
                 <nav>
-                    <ul className="text-lg font-medium text-gray-500">
+                    <ul className="flex  space-x-5 font-medium text-gray-700 sm:text-base lg:text-lg">
                         <li>Features</li>
                         <li>Use Case</li>
                         <li>Integration</li>
@@ -17,7 +18,11 @@ export const Header = () => {
                     </ul>
                 </nav>
             </div>
-            <div></div>
+            <div>
+                <Button backgroundColor={"bg-purple-500"} color={"text-white"}>
+                    Get this Template
+                </Button>
+            </div>
         </div>
     );
 };
