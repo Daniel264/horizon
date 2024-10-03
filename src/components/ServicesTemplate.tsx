@@ -5,10 +5,10 @@ interface ServicesTemplateProps {
     title: string;
     text: string;
     useHeader: boolean;
-
+    reverse: boolean;
 }
 
-export const ServicesTemplate = ({image, title, text, useHeader}: ServicesTemplateProps) => {
+export const ServicesTemplate = ({ image, title, text, useHeader, reverse }: ServicesTemplateProps) => {
     return (
         // <div className="flex min-h-screen w-full flex-col items-center justify-center pt-16">
         //     <header className="w-[80%] text-center text-6xl font-semibold">
@@ -36,16 +36,18 @@ export const ServicesTemplate = ({image, title, text, useHeader}: ServicesTempla
         //     </div>
         // </div>
         <div className="flex min-h-screen w-full flex-col items-center justify-center pt-16">
-            {useHeader && <header className="w-[80%] text-center text-6xl font-semibold">
-                <h1>Trend detection applied</h1>
-                <p className="text-[#9CA3AF]">to the whole market</p>
-                <div className="flex w-full justify-center">
-                    <p className="flex justify-center pt-5 text-center text-base font-normal text-[#374151] lg:w-[60%]">
-                        Unlock the full potential of your tech stack with Horizon&apos;s intuitive and flexible integration options. Experience the synergy of your favorite tools working seamlessly together, all powered by Horizon&apos;s cutting-edge AI analytics
-                    </p>
-                </div>
-            </header>}
-            <div className="flex min-h-screen w-full  flex-col items-center justify-center gap-10 lg:flex-row">
+            {useHeader && (
+                <header className="w-[80%] text-center text-6xl font-semibold">
+                    <h1>Trend detection applied</h1>
+                    <p className="text-[#9CA3AF]">to the whole market</p>
+                    <div className="flex w-full justify-center">
+                        <p className="flex justify-center pt-5 text-center text-base font-normal text-[#374151] lg:w-[60%]">
+                            Unlock the full potential of your tech stack with Horizon&apos;s intuitive and flexible integration options. Experience the synergy of your favorite tools working seamlessly together, all powered by Horizon&apos;s cutting-edge AI analytics
+                        </p>
+                    </div>
+                </header>
+            )}
+            <div className={`flex min-h-screen w-full  flex-col items-center justify-center gap-10 ${reverse ? "flex-row-reverse" : "lg:flex-row"}`}>
                 <div className="flex w-full justify-center">
                     <Image src={image} alt={""} width={1000} className="h-full w-[70%] lg:h-[85%] lg:w-[85%]" height={1000} />
                 </div>
