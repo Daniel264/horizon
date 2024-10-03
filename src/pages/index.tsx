@@ -1,3 +1,4 @@
+import { Button } from "@/components/Button";
 import { Header } from "@/components/Header";
 import SEO from "@/components/SEO";
 import React from "react";
@@ -16,6 +17,9 @@ export default function Home() {
                 </div>
             </main> */}
             <Header />
+            <Button backgroundColor={"bg-purple-500"} color={"text-white"}>
+                Get this Template
+            </Button>
         </>
     );
 }
