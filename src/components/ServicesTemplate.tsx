@@ -56,7 +56,7 @@ export const ServicesTemplate = ({ image, title, text, useHeader, reverse }: Ser
                         <h1 className="text-5xl font-semibold">
                             <span className=" text-[#8B5CF6]">{title}</span>
                         </h1>
-                        <p className="text-base font-light">{text} </p>
+                        <p className="text-base font-normal">{text} </p>
                     </div>
                     <div></div>
                 </section>

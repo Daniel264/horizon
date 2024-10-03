@@ -18,6 +18,13 @@ export const Services = () => {
                 useHeader={false}
                 reverse={true}
             />
+            <ServicesTemplate
+                image={"/assets/images/sectionthree.svg"}
+                title={"Stay informed, instantly"}
+                text={"Our smart Alert System keeps you in the know. Receive instant notifications on critical shifts in market dynamics, competitor moves, or emerging trends."}
+                useHeader={false}
+                reverse={false}
+            />
         </>
     );
 };
