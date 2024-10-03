@@ -3,7 +3,7 @@ import { Button } from "./Button";
 
 export const Hero = () => {
     return ( 
-        <div style={{ backgroundImage: "url('/assets/images/background.svg')" }} className="flex min-h-screen w-full flex-col items-center justify-center lg:flex-row ">
+        <div style={{ backgroundImage: "url('/assets/images/background.svg')" }} className="flex min-h-screen w-full flex-col items-center justify-center pt-12 lg:flex-row ">
             <div className="flex flex-col items-center text-center space-y-7 w-full">
                 <h1 className="text-6xl font-semibold text-[#8B5CF6] ">
                     Insightful trends <br />
