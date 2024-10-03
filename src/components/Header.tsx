@@ -19,7 +19,7 @@ export const Header = () => {
                 </nav>
             </div>
             <div>
-                <Button backgroundColor={"bg-purple-500"} color={"text-white"}>
+                <Button backgroundColor={"bg-gradient-to-r from-[#9B72F7] to-[#8B5CF6]"} color={"text-white"}>
                     Get this Template
                 </Button>
             </div>
