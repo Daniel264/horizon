@@ -15,7 +15,7 @@ export const Hero = () => {
                     </p>
                 </div>
                 <div className="space-x-7">
-                    <Button backgroundColor={"bg-[#F6F6F7]"} color={"text-black"}>
+                    <Button backgroundColor={"bg-[#FDFDFD]"} color={"text-black"}>
                         Discover more
                     </Button>
                     <Button backgroundColor={"bg-gradient-to-r from-[#9B72F7] to-[#8B5CF6]"} color={"text-white"}>
