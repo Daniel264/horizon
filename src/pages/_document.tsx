@@ -9,6 +9,7 @@ export default function Document() {
 
                 {/* Get default font file from https://fonts.google.com  */}
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" />
+                <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
             </Head>
             <body>
                 <Main />
