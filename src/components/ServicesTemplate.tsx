@@ -2,16 +2,15 @@ import Image from "next/image";
 
 export const ServicesTemplate = () => {
     return (
-        <div className="flex flex-col min-h-screen w-full items-center justify-center">
-            <header className="text-6xl font-semibold ">
+        <div className="flex min-h-screen w-full flex-col items-center justify-center pt-16">
+            <header className="w-[80%] text-center text-6xl font-semibold">
                 <h1>Trend detection applied</h1>
                 <p className="text-[#9CA3AF]">to the whole market</p>
-                <p className="text-[#374151] text-sm font-light text-center pt-5">
-                    Unlock the full potential of your tech stack with Horizon&apos;s intuitive and <br />
-                    flexible integration options. Experience the synergy of your favorite tools <br />
-                    working seamlessly together, all powered together, all powered by Horizon&apos;s cutting-edge AI <br />
-                    analytics
-                </p>
+                <div className="w-full flex justify-center">
+                    <p className="pt-5 text-base font-normal flex justify-center text-center lg:w-[60%] text-[#374151]">
+                        Unlock the full potential of your tech stack with Horizon&apos;s intuitive and flexible integration options. Experience the synergy of your favorite tools working seamlessly together, all powered by Horizon&apos;s cutting-edge AI analytics
+                    </p>
+                </div>
             </header>
             <div className="flex min-h-screen w-full  flex-col items-center justify-center gap-10 lg:flex-row">
                 <div className="flex w-full justify-center">
