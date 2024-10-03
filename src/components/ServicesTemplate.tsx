@@ -47,7 +47,7 @@ export const ServicesTemplate = ({ image, title, text, useHeader, reverse }: Ser
                     </div>
                 </header>
             )}
-            <div className={`flex min-h-screen w-full  flex-col items-center justify-center gap-10 ${reverse ? "flex-row-reverse" : "lg:flex-row"}`}>
+            <div className={`flex min-h-screen w-full  flex-col items-center justify-center gap-10 ${reverse ? "lg:flex-row-reverse" : "lg:flex-row"}`}>
                 <div className="flex w-full justify-center">
                     <Image src={image} alt={""} width={1000} className="h-full w-[70%] lg:h-[85%] lg:w-[85%]" height={1000} />
                 </div>
