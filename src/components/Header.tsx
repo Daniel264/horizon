@@ -9,7 +9,7 @@ export const Header = () => {
             </div>
             <div>
                 <nav>
-                    <ul className="flex  space-x-5 font-medium text-gray-700 sm:text-base lg:text-lg">
+                    <ul className="flex  space-x-5 font-medium text-gray-700 hover:cursor-pointer sm:text-base lg:text-lg">
                         <li>Features</li>
                         <li>Use Case</li>
                         <li>Integration</li>
