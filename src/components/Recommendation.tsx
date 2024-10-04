@@ -4,7 +4,7 @@ import { Button } from "./Button";
 
 export const Recommendation = () => {
     return (
-        <section className="flex min-h-screen w-full flex-col items-center justify-center space-y-20 bg-[#F3F4F6] pt-10">
+        <section className="flex min-h-screen w-full flex-col items-center justify-center space-y-20 bg-[#F3F4F6] py-16">
             <header className="flex h-fit w-full flex-col items-center justify-center">
                 <Badge>Customer Voices</Badge>
                 <h1 className="text-6xl font-semibold ">Early adopters are saying</h1>
@@ -19,7 +19,7 @@ export const Recommendation = () => {
                     </div>
                     <div className="space-y-5">
                         <div>
-                            <Image src="/assets/images/intercom.svg" width={100} height={100} alt="intercom Company Logo" />
+                            <Image src="/assets/images/intercom.svg" width={130} height={130} alt="intercom Company Logo" />
                         </div>
                         <div>
                             <p className="font-medium">Alex Rodriguez</p>
@@ -59,7 +59,7 @@ export const Recommendation = () => {
                     </div>
                 </div>
                 <div>
-                    <Image src="/assets/images/recommend-image.svg" width={130} height={130} alt="avatar" className="h-full w-full" />
+                    <Image src="/assets/images/recommend-image.svg" width={100} height={100} alt="avatar" className="h-full w-full" />
                 </div>
             </div>
         </section>
