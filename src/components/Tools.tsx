@@ -17,9 +17,11 @@ export const Tools = () => {
                 </div>
             </div>
             <div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div className="flex flex-row lg:flex-col">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
                 <div></div>
                 <div></div>
                 <div></div>
