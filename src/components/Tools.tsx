@@ -20,53 +20,71 @@ export const Tools = () => {
             </div>
             <div className="flex h-full w-full flex-row gap-10">
                 <div className="flex flex-row space-y-10 lg:flex-col">
-                    <div className="flex h-[225px] w-[225px] flex-col items-center justify-center rounded-badge border-2 border-black border-opacity-10">
-                        <Image src={"/assets/logo/notion.svg"} alt={"Notion logo"} width={100} height={100} />
-                        <p className="text-xl font-medium">Notion</p>
+                    <div className="flex h-[225px] w-[225px] flex-col  rounded-badge border-2 border-black border-opacity-10 p-5 text-left">
+                        <div className="h-full w-full">
+                            <Image src={"/assets/logo/notion.svg"} alt={"Notion logo"} width={40} height={40} />
+                        </div>
+                        <p className="text-xl font-semibold">Notion</p>
                         <p>Plan your life</p>
                     </div>
-                    <div className="flex h-[225px] w-[225px] flex-col items-center justify-center rounded-badge border-2 border-black border-opacity-10">
-                        <Image src={"/assets/logo/loom.svg"} alt={"Notion logo"} width={100} height={100} />
-                        <p className="text-xl font-medium">Loom</p>
+                    <div className="flex h-[225px] w-[225px] flex-col  rounded-badge border-2 border-black border-opacity-10 p-5 text-left">
+                        <div className="h-full w-full">
+                            <Image src={"/assets/logo/loom.svg"} alt={"Notion logo"} width={40} height={40} />
+                        </div>{" "}
+                        <p className="text-xl font-semibold">Loom</p>
                         <p>Plan your life</p>
                     </div>
-                    <div className="flex  h-[225px] w-[225px] flex-col items-center justify-center rounded-badge border-2 border-black border-opacity-10">
-                        <Image src={"/assets/logo/things.svg"} alt={"Notion logo"} width={100} height={100} />
-                        <p className="text-xl font-medium">Things</p>
-                        <p>Plan your life</p>
-                    </div>
-                </div>
-                <div className="flex flex-row space-y-10 lg:flex-col">
-                    <div className="flex h-[225px] w-[225px] flex-col items-center justify-center rounded-badge border-2 border-black border-opacity-10">
-                        <Image src={"/assets/logo/notion.svg"} alt={"Notion logo"} width={100} height={100} />
-                        <p className="text-xl font-medium">Confluence</p>
-                        <p>Plan your life</p>
-                    </div>
-                    <div className="flex h-[225px] w-[225px] flex-col items-center justify-center rounded-badge border-2 border-black border-opacity-10">
-                        <Image src={"/assets/logo/mailchimp.svg"} alt={"Notion logo"} width={100} height={100} />
-                        <p className="text-xl font-medium">Mail Chimp</p>
-                        <p>Plan your life</p>
-                    </div>
-                    <div className="flex h-[225px] w-[225px] flex-col items-center justify-center rounded-badge border-2 border-black border-opacity-10">
-                        <Image src={"/assets/logo/github.svg"} alt={"Notion logo"} width={100} height={100} />
-                        <p className="text-xl font-medium">GitHub</p>
+                    <div className="flex  h-[225px] w-[225px] flex-col  rounded-badge border-2 border-black border-opacity-10 p-5 text-left">
+                        <div className="h-full w-full">
+                            <Image src={"/assets/logo/things.svg"} alt={"Notion logo"} width={40} height={40} />
+                        </div>
+                        <p className="text-xl font-semibold">Things</p>
                         <p>Plan your life</p>
                     </div>
                 </div>
                 <div className="flex flex-row space-y-10 lg:flex-col">
-                    <div className="flex h-[225px] w-[225px] flex-col items-center justify-center rounded-badge border-2 border-black border-opacity-10">
-                        <Image src={"/assets/logo/codepen.svg"} alt={"Notion logo"} width={100} height={100} />
-                        <p className="text-xl font-medium">Codepen</p>
+                    <div className="flex h-[225px] w-[225px] flex-col  rounded-badge border-2 border-black border-opacity-10 p-5 text-left">
+                        <div className="h-full w-full">
+                            <Image src={""} alt={""} width={40} height={40} />
+                        </div>
+                        <p className="text-xl font-semibold">Confluence</p>
                         <p>Plan your life</p>
                     </div>
-                    <div className="flex h-[225px] w-[225px] flex-col items-center justify-center rounded-badge border-2 border-black border-opacity-10">
-                        <Image src={"/assets/logo/intercom.svg"} alt={"Notion logo"} width={100} height={100} />
-                        <p className="text-xl font-medium">Intercom</p>
+                    <div className="flex h-[225px] w-[225px] flex-col  rounded-badge border-2 border-black border-opacity-10 p-5 text-left">
+                        <div className="h-full w-full">
+                            <Image src={"/assets/logo/mailchimp.svg"} alt={"Notion logo"} width={40} height={40} />
+                        </div>
+                        <p className="text-xl font-semibold">Mail Chimp</p>
                         <p>Plan your life</p>
                     </div>
-                    <div className="flex h-[225px] w-[225px] flex-col items-center justify-center rounded-badge border-2 border-black border-opacity-10">
-                        <Image src={"/assets/logo/slack.svg"} alt={"Notion logo"} width={100} height={100} />
-                        <p className="text-xl font-medium">Slack</p>
+                    <div className="flex h-[225px] w-[225px] flex-col  rounded-badge border-2 border-black border-opacity-10 p-5 text-left">
+                        <div className="h-full w-full">
+                            <Image src={"/assets/logo/github.svg"} alt={"Notion logo"} width={40} height={40} />
+                        </div>
+                        <p className="text-xl font-semibold">GitHub</p>
+                        <p>Plan your life</p>
+                    </div>
+                </div>
+                <div className="flex flex-row space-y-10 lg:flex-col">
+                    <div className="flex h-[225px] w-[225px] flex-col  rounded-badge border-2 border-black border-opacity-10 p-5 text-left">
+                        <div className="h-full w-full">
+                            <Image src={"/assets/logo/codepen.svg"} alt={"Notion logo"} width={40} height={40} className="" />
+                        </div>
+                        <p className="text-xl font-semibold">Codepen</p>
+                        <p>Plan your life</p>
+                    </div>
+                    <div className="flex h-[225px] w-[225px] flex-col  rounded-badge border-2 border-black border-opacity-10 p-5 text-left">
+                        <div className="h-full w-full">
+                            <Image src={"/assets/logo/intercom.svg"} alt={"Notion logo"} width={40} height={40} />
+                        </div>
+                        <p className="text-xl font-semibold">Intercom</p>
+                        <p>Plan your life</p>
+                    </div>
+                    <div className="flex h-[225px] w-[225px] flex-col  rounded-badge border-2 border-black border-opacity-10 p-5 text-left">
+                        <div className="h-full w-full">
+                            <Image src={"/assets/logo/slack.svg"} alt={"Notion logo"} width={40} height={40} />
+                        </div>
+                        <p className="text-xl font-semibold">Slack</p>
                         <p>Plan your life</p>
                     </div>
                 </div>
