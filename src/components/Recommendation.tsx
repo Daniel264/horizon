@@ -27,18 +27,22 @@ export const Recommendation = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="space-y-5">
+                    <div className="space-y-5 flex flex-col w-full h-full justify-center">
                         <h1 className="text-5xl font-semibold">
                             Benchmark <span className="text-[#8B5CF6]">against</span> the best companies
                         </h1>
 
                         <p className="text-xl font-light">Elevate your competitive edge with our Competitor Benchmarking feature. Horizon benchmarks your performance against industry leaders, providing actionable insights to outperform your competition.</p>
-                        <Button backgroundColor={"bg-[#9B72F7]"} color={"text-white"}>
-                            Get early access
-                        </Button>
+                        <div className="w-fit">
+                            <Button backgroundColor={"bg-[#9B72F7]"} color={"text-white"}>
+                                Get early access
+                            </Button>
+                        </div>
                     </div>
                 </div>
-                <div></div>
+                <div>
+                    <Image src="/assets/images/recommend-image.svg" width={100} height={100} alt="avatar" className="h-full w-full" />
+                </div>
             </div>
         </section>
     );
