@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Badge } from "./Badge";
 import { Button } from "./Button";
 
@@ -11,12 +12,18 @@ export const Recommendation = () => {
             <div className="grid w-[70%] grid-cols-1 gap-14 lg:grid-cols-2">
                 <div>
                     <div>
-                        <p className="text-xl font-light">We integrated Horizon into our business operations, and the results have been outstanding. The Smart Alert System ensures we&apos;re always informed about critical market developments, giving us a competitive edge.</p>
+                        <Image src="/assets/images/recommendone.svg" width={100} height={100} alt="avatar" />
+                    </div>
+                    <div>
+                        <p className="text-2xl font-light">We integrated Horizon into our business operations, and the results have been outstanding. The Smart Alert System ensures we&apos;re always informed about critical market developments, giving us a competitive edge.</p>
                     </div>
                 </div>
                 <div>
                     <div>
-                        <p className="text-xl font-light">We integrated Horizon into our business operations, and the results have been outstanding. The Smart Alert System ensures we&apos;re always informed about critical market developments, giving us a competitive edge.</p>
+                        <Image src="/assets/images/recommendtwo.svg" width={100} height={100} alt="avatar" />
+                    </div>
+                    <div>
+                        <p className="text-2xl font-light">We integrated Horizon into our business operations, and the results have been outstanding. The Smart Alert System ensures we&apos;re always informed about critical market developments, giving us a competitive edge.</p>
                     </div>
                 </div>
                 <div>
