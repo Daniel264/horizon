@@ -4,13 +4,13 @@ import { Button } from "./Button";
 
 export const Recommendation = () => {
     return (
-        <section className="flex min-h-screen w-full flex-col items-center justify-center space-y-20 bg-[#F3F4F6]">
-            <header>
+        <section className="flex min-h-screen w-full flex-col items-center justify-center space-y-20 bg-[#F3F4F6] pt-10">
+            <header className="flex h-fit w-full flex-col items-center justify-center">
                 <Badge>Customer Voices</Badge>
                 <h1 className="text-6xl font-semibold ">Early adopters are saying</h1>
             </header>
             <div className="grid w-[70%] grid-cols-1 gap-14 lg:grid-cols-2">
-                <div>
+                <div className="space-y-5">
                     <div>
                         <Image src="/assets/images/recommendone.svg" width={100} height={100} alt="avatar" />
                     </div>
@@ -18,7 +18,7 @@ export const Recommendation = () => {
                         <p className="text-2xl font-light">“We integrated Horizon into our business operations, and the results have been outstanding. The Smart Alert System ensures we&apos;re always informed about critical market developments, giving us a competitive edge.”</p>
                     </div>
                 </div>
-                <div>
+                <div className="space-y-5">
                     <div>
                         <Image src="/assets/images/recommendtwo.svg" width={100} height={100} alt="avatar" />
                     </div>
@@ -27,7 +27,7 @@ export const Recommendation = () => {
                     </div>
                 </div>
                 <div>
-                    <div>
+                    <div className="space-y-5">
                         <h1 className="text-5xl font-semibold">
                             Benchmark <span className="text-[#8B5CF6]">against</span> the best companies
                         </h1>

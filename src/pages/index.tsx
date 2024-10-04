@@ -12,7 +12,7 @@ export default function Home() {
         <div className="">
             <SEO title="Home" />
 
-             <main className="flex min-h-screen flex-col items-center"> 
+             <main className="flex min-h-screen flex-col items-center space-y-10"> 
             {/* <div className="m-auto w-full max-w-8xl"> */}
             {/* 
                 <div className="max-w-8xl m-auto">
