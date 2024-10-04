@@ -7,9 +7,13 @@ interface ServicesTemplateProps {
     useHeader: boolean;
     reverse: boolean;
     lowerContent: boolean;
+    lowerContentTextOne: string;
+    lowerContentTitleOne: string;
+    lowerContentTextTwo: string;
+    lowerContentTitleTwo: string;
 }
 
-export const ServicesTemplate = ({ image, title, text, useHeader, reverse, lowerContent }: ServicesTemplateProps) => {
+export const ServicesTemplate = ({ image, title, text, useHeader, reverse, lowerContent, lowerContentTextOne, lowerContentTitleOne, lowerContentTextTwo, lowerContentTitleTwo }: ServicesTemplateProps) => {
     return (
         // <div className="flex min-h-screen w-full flex-col items-center justify-center pt-16">
         //     <header className="w-[80%] text-center text-6xl font-semibold">
@@ -64,8 +68,8 @@ export const ServicesTemplate = ({ image, title, text, useHeader, reverse, lower
                                     <div className="w-fit rounded-2xl bg-[#EDE9FE] px-2 py-2">
                                         <Image src="/assets/images/section-icon.svg" alt="" width={100} height={100} className="h-8 w-8" />
                                     </div>
-                                    <h1 className="text-2xl font-semibold">See the Whole Picture</h1>
-                                    <p className="text-sm font-medium text-[#374151]">For anyone to start building their real estate portfolio, no matter the size of your wallet.</p>
+                                    <h1 className="text-2xl font-semibold">{lowerContentTitleOne}</h1>
+                                    <p className="text-sm font-medium text-[#374151]">{lowerContentTextOne}</p>
                                     <div className="flex h-fit w-fit flex-row items-center justify-center">
                                         <p className="pr-2">Learn more</p>
                                         <Image src="/assets/images/arrow.svg" alt="" width={100} height={100} className="h-4 w-4" />
@@ -75,9 +79,9 @@ export const ServicesTemplate = ({ image, title, text, useHeader, reverse, lower
                                     <div className="w-fit rounded-2xl bg-[#DBEAFE] px-2 py-2">
                                         <Image src="/assets/images/section-icon.svg" alt="" width={100} height={100} className="h-8 w-8" />
                                     </div>
-                                    <h1 className="text-2xl font-semibold">See the Whole Picture</h1>
+                                    <h1 className="text-2xl font-semibold">{lowerContentTitleTwo}</h1>
 
-                                    <p className="text-sm font-medium text-[#374151]">For anyone to start building their real estate portfolio, no matter the size of your wallet.</p>
+                                    <p className="text-sm font-medium text-[#374151]">{lowerContentTextTwo}</p>
                                     <div className="flex h-fit w-fit flex-row items-center justify-center">
                                         <p className="pr-2">Learn more</p>
                                         <Image src="/assets/images/arrow.svg" alt="" width={100} height={100} className="h-4 w-4" />
