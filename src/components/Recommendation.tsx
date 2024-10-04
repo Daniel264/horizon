@@ -3,12 +3,12 @@ import { Button } from "./Button";
 
 export const Recommendation = () => {
     return (
-        <section className="flex min-h-screen w-full items-center justify-center">
+        <section className="flex min-h-screen w-full flex-col items-center justify-center space-y-20">
             <header>
                 <Badge>Customer Voices</Badge>
                 <h1 className="text-6xl font-semibold ">Early adopters are saying</h1>
             </header>
-            <div className="grid grid-cols-1 lg:grid-cols-2">
+            <div className="grid w-[70%] grid-cols-1 gap-14 lg:grid-cols-2">
                 <div>
                     <div>
                         <p className="text-xl font-light">We integrated Horizon into our business operations, and the results have been outstanding. The Smart Alert System ensures we&apos;re always informed about critical market developments, giving us a competitive edge.</p>
