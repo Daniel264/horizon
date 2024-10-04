@@ -58,9 +58,8 @@ export const ServicesTemplate = ({ image, title, text, useHeader, reverse, lower
                 </div>
                 <section className="flex w-full flex-col items-center justify-center">
                     <div className="flex w-full flex-col items-center space-y-6 px-5 sm:px-24">
-                        <h1 className="text-5xl font-semibold">
-                            <span className=" text-[#8B5CF6]">{title}</span>
-                        </h1>
+                        <h1 className="text-5xl font-semibold" dangerouslySetInnerHTML={{ __html: title }} />
+
                         <p className="text-base font-medium text-[#374151]">{text} </p>
                         {lowerContent && (
                             <div className="flex flex-col md:flex-row">
