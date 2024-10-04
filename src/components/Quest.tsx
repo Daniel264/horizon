@@ -15,7 +15,7 @@ export const Quest = () => {
             </div>
             <div className="flex items-center justify-center">
                 <div className="flex w-[80%] justify-center">
-                    <div className="grid w-full grid-cols-3 grid-rows-2 gap-9 ">
+                    <div className="grid w-full lg:grid-cols-3 grid-rows-2 gap-9 ">
                         {QuestContent.map((content, index) => (
                             <div key={index} className="h-[320px]  rounded-badge border-2 border-gray-500 border-opacity-10 bg-[#ffffff] p-5">
                                 <div className="flex justify-start">
