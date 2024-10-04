@@ -7,10 +7,10 @@ interface ServicesTemplateProps {
     useHeader: boolean;
     reverse: boolean;
     lowerContent: boolean;
-    lowerContentTextOne: string;
-    lowerContentTitleOne: string;
-    lowerContentTextTwo: string;
-    lowerContentTitleTwo: string;
+    lowerContentTextOne?: string;
+    lowerContentTitleOne?: string;
+    lowerContentTextTwo?: string;
+    lowerContentTitleTwo?: string;
 }
 
 export const ServicesTemplate = ({ image, title, text, useHeader, reverse, lowerContent, lowerContentTextOne, lowerContentTitleOne, lowerContentTextTwo, lowerContentTitleTwo }: ServicesTemplateProps) => {
