@@ -6,7 +6,7 @@ import { Recommendation } from "@/components/Recommendation";
 import SEO from "@/components/SEO";
 import { Services } from "@/components/Services";
 import { ServicesTemplate } from "@/components/ServicesTemplate";
-import Tools from "@/components/Tools";
+import { Tools } from "@/components/Tools";
 import React from "react";
 
 export default function Home() {
@@ -28,7 +28,7 @@ export default function Home() {
             <Services />
             <Recommendation />
             <Quest />
-
+            <Tools />   
             </main> 
         </div>
     );
