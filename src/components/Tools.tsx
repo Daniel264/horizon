@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Tools = () => {
     return (
-        <div className="flex min-h-screen w-full items-center justify-center px-5 py-10">
+        <div className="flex flex-col lg:flex-row min-h-screen w-full items-center justify-center px-5 py-10 gap-5 lg:gap-0">
             <div className="flex w-full flex-col items-center">
                 <div className="flex w-[78%] flex-col items-center space-y-5">
                     <div>
@@ -18,8 +18,8 @@ export const Tools = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex h-full w-full flex-row gap-3">
-                <div className="flex flex-row space-y-3 lg:flex-col">
+            <div className="flex h-full w-full flex-col lg:flex-row gap-3 items-center justify-center">
+                <div className="flex flex-row gap-3 lg:flex-col">
                     <div className="flex h-[200px] w-[200px] flex-col  rounded-badge border-2 border-black border-opacity-10 p-5 text-left">
                         <div className="h-full w-full">
                             <Image src={"/assets/logo/notion.svg"} alt={"Notion logo"} width={40} height={40} />
@@ -42,7 +42,7 @@ export const Tools = () => {
                         <p className="font-medium text-[#4B5563]">Plan your life</p>
                     </div>
                 </div>
-                <div className="flex flex-row space-y-3 lg:flex-col">
+                <div className="flex flex-row gap-3 lg:flex-col">
                     <div className="flex h-[200px] w-[200px] flex-col  rounded-badge border-2 border-black border-opacity-10 p-5 text-left">
                         <div className="h-full w-full">
                             <Image src={""} alt={""} width={40} height={40} />
@@ -65,7 +65,7 @@ export const Tools = () => {
                         <p className="font-medium text-[#4B5563]">Plan your life</p>
                     </div>
                 </div>
-                <div className="flex flex-row space-y-3 lg:flex-col">
+                <div className="flex flex-row gap-3  lg:flex-col">
                     <div className="flex h-[200px] w-[200px] flex-col  rounded-badge border-2 border-black border-opacity-10 p-5 text-left">
                         <div className="h-full w-full">
                             <Image src={"/assets/logo/codepen.svg"} alt={"Notion logo"} width={40} height={40} className="" />
