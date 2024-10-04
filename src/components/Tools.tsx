@@ -1,11 +1,32 @@
 import React from "react";
+import { Badge } from "./Badge";
 
-const Tools = () => {
+export const Tools = () => {
     return (
-        <button className="btn-shadow group relative flex h-[38px] w-[110px] items-center justify-center overflow-hidden rounded-full bg-[#131316] text-sm font-medium leading-[24px] text-white outline outline-4 -outline-offset-[0px] outline-white/[55%] transition-all hover:outline-[5px] hover:-outline-offset-1 hover:outline-white/[100%] md:h-[48px] xl:w-[154px] xl:text-[18px]">
-            <div className="absolute -bottom-[2px] -left-1 right-0 z-10 !mx-auto h-[0px] w-[160px] rounded-full bg-white transition-all duration-300 group-hover:h-[52px]" /> <span className="z-[11] group-hover:text-black">Get App</span>
-        </button>
+        <div className="flex min-h-screen w-full items-center justify-center">
+            <div>
+                <div>
+                    <Badge>Integrations</Badge>
+                </div>
+                <div>
+                    <h1 className="text-6xl font-semibold">
+                        Smart <span className="text-[#8B5CF6]">integrations</span>
+                        at your fingertips
+                    </h1>
+                    <p className="text-[#374151]">Our open API and robust integration framework ensures a smooth connection with the tools you rely on daily, creating a unified ecosystem for unparalleled efficiency.</p>
+                </div>
+            </div>
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
     );
 };
-
-export default Tools;
