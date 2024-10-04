@@ -1,3 +1,4 @@
+import { QuestContent } from "@/utilities/quest";
 import { Badge } from "./Badge";
 
 export const Quest = () => {
@@ -13,12 +14,18 @@ export const Quest = () => {
             </div>
             <div>
                 <div className="grid w-[80%] grid-cols-3 grid-rows-2">
-                    {/* <div><h2>Trend Detection</h2></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div> */}
+                    {QuestContent.map((content, index) => (
+                        <div key={index}>
+                            <div className="flex justify-center">
+                                <img src={content.src} alt="icon" />
+                            </div>
+                            <div className="text-center">
+                                <h1 className="text-3xl font-semibold">{content.title}</h1>
+                                <p className="text-[#9CA3AF]">{content.description}</p>
+                            </div>
+                        </div>
+                    ))}
+                    <div></div> 
                 </div>
             </div>
         </div>
