@@ -1,4 +1,5 @@
 import { Badge } from "./Badge";
+import { PricingCard } from "./PricingCard";
 
 export const Pricing = () => {
     return (
@@ -12,7 +13,12 @@ export const Pricing = () => {
                     <p className="text-[#9CA3AF]">Choose a plan</p>
                 </h1>
             </div>
-            <div></div>
+            <div>
+                {/* <div></div>
+                <div></div>
+                <div></div> */}
+                <PricingCard />
+            </div>
         </div>
     );
 };
