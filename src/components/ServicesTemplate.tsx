@@ -43,11 +43,11 @@ export const ServicesTemplate = ({ image, title, text, useHeader, reverse, lower
         // </div>
         <div className="flex min-h-screen w-full flex-col items-center justify-center pt-16">
             {useHeader && (
-                <header className="w-[80%] text-center text-6xl font-semibold">
+                <header className="w-[80%] text-center text-4xl font-semibold sm:text-5xl lg:text-6xl">
                     <h1>Trend detection applied</h1>
                     <p className="text-[#9CA3AF]">to the whole market</p>
                     <div className="flex w-full justify-center">
-                        <p className="flex justify-center pt-5 text-center text-base font-normal text-[#374151] lg:w-[60%]">
+                        <p className="flex justify-center pb-5 pt-5 text-center  text-sm font-normal text-[#374151] sm:text-base md:pb-0 lg:w-[60%]">
                             Unlock the full potential of your tech stack with Horizon&apos;s intuitive and flexible integration options. Experience the synergy of your favorite tools working seamlessly together, all powered by Horizon&apos;s cutting-edge AI analytics
                         </p>
                     </div>
@@ -58,18 +58,16 @@ export const ServicesTemplate = ({ image, title, text, useHeader, reverse, lower
                     <Image src={image} alt={""} width={1000} className="h-full w-[70%] lg:h-[85%] lg:w-[85%]" height={1000} />
                 </div>
                 <section className="flex w-full flex-col ">
-                <div className="w-[40%] justify-center pb-5 flex">
-                    <Badge>Features</Badge>
-                </div>
+                    <div className="flex w-[40%] justify-center pb-5">
+                        <Badge>Features</Badge>
+                    </div>
                     <div className="flex w-full flex-col items-center space-y-6 px-5 sm:px-24">
-                    
                         <h1 className="text-5xl font-semibold" dangerouslySetInnerHTML={{ __html: title }} />
 
                         <p className="text-base font-medium text-[#374151]">{text} </p>
                         {lowerContent && (
                             <div className="flex flex-col md:flex-row">
                                 <div className="space-y-4">
-                                 
                                     <div className="w-fit rounded-2xl bg-[#EDE9FE] px-2 py-2">
                                         <Image src="/assets/images/section-icon.svg" alt="" width={100} height={100} className="h-8 w-8" />
                                     </div>
