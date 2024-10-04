@@ -17,17 +17,35 @@ export const Recommendation = () => {
                     <div>
                         <p className="text-2xl font-light">“We integrated Horizon into our business operations, and the results have been outstanding. The Smart Alert System ensures we&apos;re always informed about critical market developments, giving us a competitive edge.”</p>
                     </div>
+                    <div className="space-y-5">
+                        <div>
+                            <Image src="/assets/images/intercom.svg" width={100} height={100} alt="intercom Company Logo" />
+                        </div>
+                        <div>
+                            <p className="font-medium">Alex Rodriguez</p>
+                            <p className="text-[#9CA3AF]">Marketing Director, Digital Ventures Inc.</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="space-y-5">
                     <div>
-                        <Image src="/assets/images/recommendtwo.svg" width={100} height={100} alt="avatar" />
+                        <Image src="/assets/images/recommendtwo.svg" width={100} height={100} alt="" />
                     </div>
                     <div>
                         <p className="text-2xl font-light">“We integrated Horizon into our business operations, and the results have been outstanding. The Smart Alert System ensures we&apos;re always informed about critical market developments, giving us a competitive edge.”</p>
                     </div>
+                    <div className="space-y-5">
+                        <div>
+                            <Image src="/assets/images/abstract.svg" width={130} height={130} alt="Abstract Company Logo" />
+                        </div>
+                        <div>
+                            <p className="font-medium">Sarah Thompson</p>
+                            <p className="text-[#9CA3AF]">Marketing Director, Digital Ventures Inc.</p>
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    <div className="space-y-5 flex flex-col w-full h-full justify-center">
+                    <div className="flex h-full w-full flex-col justify-center space-y-5">
                         <h1 className="text-5xl font-semibold">
                             Benchmark <span className="text-[#8B5CF6]">against</span> the best companies
                         </h1>
@@ -41,7 +59,7 @@ export const Recommendation = () => {
                     </div>
                 </div>
                 <div>
-                    <Image src="/assets/images/recommend-image.svg" width={100} height={100} alt="avatar" className="h-full w-full" />
+                    <Image src="/assets/images/recommend-image.svg" width={130} height={130} alt="avatar" className="h-full w-full" />
                 </div>
             </div>
         </section>
