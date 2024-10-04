@@ -16,7 +16,7 @@ export const Hero = () => {
                     <div className="px-28 text-xl font-medium text-[#374151]">
                         <p>Step into the new era of strategic decision making. Horizon empowers businesses in the marketing space with unparalleled data analytics.</p>
                     </div>
-                    <div className="space-x-7">
+                    <div className="space-x-7 flex">
                         <Button backgroundColor={"bg-[#FDFDFD]"} color={"text-black"}>
                             Discover more
                         </Button>

@@ -3,11 +3,11 @@ import { Button } from "./Button";
 
 export const Header = () => {
     return (
-        <div className="flex h-fit w-full items-center justify-between px-12 py-5">
+        <div className="flex h-fit w-full items-center justify-between px-3 md:px-12 py-5">
             <div>
                 <h1 className="text-2xl font-bold">Horizon</h1>
             </div>
-            <div>
+            <div className="hidden lg:flex">
                 <nav>
                     <ul className="flex  space-x-5 font-medium text-gray-700 hover:cursor-pointer sm:text-base lg:text-lg">
                         <li>Features</li>
