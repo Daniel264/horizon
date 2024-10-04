@@ -64,7 +64,10 @@ export const ServicesTemplate = ({ image, title, text, useHeader, reverse }: Ser
                                 </div>
                                 <h1 className="text-2xl font-semibold">See the Whole Picture</h1>
                                 <p className="font-base text-sm">For anyone to start building their real estate portfolio, no matter the size of your wallet.</p>
-                                <p>Learn more</p>
+                                <div className="flex flex-row w-fit h-fit justify-center items-center">
+                                    <p className="pr-2">Learn more</p>
+                                    <Image src="/assets/images/arrow.svg" alt="" width={100} height={100} className="h-4 w-4" />
+                                </div>
                             </div>
                             <div className="space-y-4">
                                 <div className="w-fit rounded-2xl bg-[#DBEAFE] px-2 py-2">
@@ -73,7 +76,10 @@ export const ServicesTemplate = ({ image, title, text, useHeader, reverse }: Ser
                                 <h1 className="text-2xl font-semibold">See the Whole Picture</h1>
 
                                 <p className="text-sm">For anyone to start building their real estate portfolio, no matter the size of your wallet.</p>
-                                <p>Learn more</p>
+                                <div className="flex flex-row w-fit h-fit justify-center items-center">
+                                    <p className="pr-2">Learn more</p>
+                                    <Image src="/assets/images/arrow.svg" alt="" width={100} height={100} className="h-4 w-4" />
+                                </div>
                             </div>
                         </div>
                     </div>
