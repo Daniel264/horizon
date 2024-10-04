@@ -59,16 +59,16 @@ export const ServicesTemplate = ({ image, title, text, useHeader, reverse }: Ser
                         <p className="text-base font-normal">{text} </p>
                         <div className="flex flex-col md:flex-row">
                             <div className="space-y-4">
-                            <div className="bg-[#EDE9FE]">
-                                    <Image src="/assets/images/section-icon.svg" alt="" width={100} height={100} className="h-20 w-20" />
+                                <div className="w-fit rounded-2xl bg-[#EDE9FE] px-2 py-2">
+                                    <Image src="/assets/images/section-icon.svg" alt="" width={100} height={100} className="h-12 w-12" />
                                 </div>
                                 <h1 className="text-3xl font-semibold">See the Whole Picture</h1>
                                 <p className="font-base text-base">For anyone to start building their real estate portfolio, no matter the size of your wallet.</p>
                                 <p>Learn more</p>
                             </div>
                             <div className="space-y-4">
-                                <div className="bg-[#DBEAFE]">
-                                    <Image src="/assets/images/section-icon.svg" alt="" width={100} height={100} className="h-20 w-20" />
+                                <div className="w-fit rounded-2xl bg-[#DBEAFE] px-2 py-2">
+                                    <Image src="/assets/images/section-icon.svg" alt="" width={100} height={100} className="h-12 w-12" />
                                 </div>
                                 <h1 className="text-3xl font-semibold">See the Whole Picture</h1>
 
