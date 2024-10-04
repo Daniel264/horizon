@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Badge } from "./Badge";
 
 interface ServicesTemplateProps {
     image: string;
@@ -56,14 +57,19 @@ export const ServicesTemplate = ({ image, title, text, useHeader, reverse, lower
                 <div className="flex w-full justify-center">
                     <Image src={image} alt={""} width={1000} className="h-full w-[70%] lg:h-[85%] lg:w-[85%]" height={1000} />
                 </div>
-                <section className="flex w-full flex-col items-center justify-center">
+                <section className="flex w-full flex-col ">
+                <div className="w-[40%] justify-center pb-5 flex">
+                    <Badge>Features</Badge>
+                </div>
                     <div className="flex w-full flex-col items-center space-y-6 px-5 sm:px-24">
+                    
                         <h1 className="text-5xl font-semibold" dangerouslySetInnerHTML={{ __html: title }} />
 
                         <p className="text-base font-medium text-[#374151]">{text} </p>
                         {lowerContent && (
                             <div className="flex flex-col md:flex-row">
                                 <div className="space-y-4">
+                                 
                                     <div className="w-fit rounded-2xl bg-[#EDE9FE] px-2 py-2">
                                         <Image src="/assets/images/section-icon.svg" alt="" width={100} height={100} className="h-8 w-8" />
                                     </div>
