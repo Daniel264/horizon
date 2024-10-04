@@ -1,5 +1,6 @@
 import { QuestContent } from "@/utilities/quest";
 import { Badge } from "./Badge";
+import Image from "next/image";
 
 export const Quest = () => {
     return (
@@ -16,11 +17,11 @@ export const Quest = () => {
                 <div className="flex w-[80%] justify-center">
                     <div className="grid w-full grid-cols-3 grid-rows-2 gap-9 ">
                         {QuestContent.map((content, index) => (
-                            <div key={index} className="h-[300px] border-2 border-gray-500 border-opacity-10 bg-[#ffffff]">
-                                <div className="flex justify-center">
-                                    <img src={content.src} alt="icon" />
+                            <div key={index} className="h-[320px]  rounded-badge border-2 border-gray-500 border-opacity-10 bg-[#ffffff] p-5">
+                                <div className="flex justify-start">
+                                    <Image src={content.src} alt="icon" width={70} height={70} />
                                 </div>
-                                <div className="text-center">
+                                <div className="flex h-[200px] flex-col justify-end text-center">
                                     <h1 className="text-3xl font-semibold">{content.title}</h1>
                                     <p className="text-[#9CA3AF]">{content.description}</p>
                                 </div>
