@@ -1,5 +1,5 @@
 export const QuestContent = [
-    { src: "/assets/images/dollar.svg", title: "Trend Detection", description: "Horizon’s AI-powered Trend Detection feature identifies emerging trends in your industry, ensuring you’re always ahead of the curve." },
+    { src: "/assets/images/dollar.svg", title: "Trend Detection", description: "Identify strengths, capitalize on weaknesses, and chart a course for unparalleled success" },
     { src: "/assets/images/dollar.svg", title: "Daily updates", description: "Identify strengths, capitalize on weaknesses, and chart a course for unparalleled success." },
     { src: "/assets/images/dollar.svg", title: "Market Coverage", description: "Identify strengths, capitalize on weaknesses, and chart a course for unparalleled success." },
     { src: "/assets/images/document.svg", title: "Start small", description: "Identify strengths, capitalize on weaknesses, and chart a course for unparalleled success." },
