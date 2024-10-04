@@ -4,7 +4,7 @@ import { Button } from "./Button";
 
 export const Recommendation = () => {
     return (
-        <section className="flex min-h-screen w-full flex-col items-center justify-center space-y-20">
+        <section className="flex min-h-screen w-full flex-col items-center justify-center space-y-20 bg-[#F3F4F6]">
             <header>
                 <Badge>Customer Voices</Badge>
                 <h1 className="text-6xl font-semibold ">Early adopters are saying</h1>
@@ -15,7 +15,7 @@ export const Recommendation = () => {
                         <Image src="/assets/images/recommendone.svg" width={100} height={100} alt="avatar" />
                     </div>
                     <div>
-                        <p className="text-2xl font-light">We integrated Horizon into our business operations, and the results have been outstanding. The Smart Alert System ensures we&apos;re always informed about critical market developments, giving us a competitive edge.</p>
+                        <p className="text-2xl font-light">“We integrated Horizon into our business operations, and the results have been outstanding. The Smart Alert System ensures we&apos;re always informed about critical market developments, giving us a competitive edge.”</p>
                     </div>
                 </div>
                 <div>
@@ -23,7 +23,7 @@ export const Recommendation = () => {
                         <Image src="/assets/images/recommendtwo.svg" width={100} height={100} alt="avatar" />
                     </div>
                     <div>
-                        <p className="text-2xl font-light">We integrated Horizon into our business operations, and the results have been outstanding. The Smart Alert System ensures we&apos;re always informed about critical market developments, giving us a competitive edge.</p>
+                        <p className="text-2xl font-light">“We integrated Horizon into our business operations, and the results have been outstanding. The Smart Alert System ensures we&apos;re always informed about critical market developments, giving us a competitive edge.”</p>
                     </div>
                 </div>
                 <div>
