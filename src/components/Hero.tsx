@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export const Hero = () => {
     return (
-        <section style={{ backgroundImage: "url('/assets/images/background.svg')" }}>
+        <section className="w-full" style={{ backgroundImage: "url('/assets/images/background.svg')" }}>
             <div className="flex min-h-screen w-full flex-col items-center justify-center lg:flex-row ">
                 <div className="flex w-full flex-col items-center space-y-7 text-left">
                     <motion.h1
@@ -81,7 +81,9 @@ export const Hero = () => {
                 </div>
             </div>
 
-            <Companies />
+            <div className="w-[60%] flex mx-auto">
+                <Companies />
+            </div>
         </section>
     );
 };
