@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 
 import useUser from "@/utilities/use-user";
 import { withAuth } from "@/utilities/auth-guard";
+import React from "react";
 
 function Dashboard() {
     const { user } = useUser();

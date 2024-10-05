@@ -14,12 +14,12 @@ export default function SEO({ icon, title, keywords, description, image }: SEOPr
 
     const SITE_BASE_URL = "https://nextjs-boilertemplate.com";
 
-    const DEFAULT_ICON_URL = "/assets/logo/icon.svg";
-    const DEFAULT_DESCRIPTION = "Description of the project goes here.";
+    const DEFAULT_ICON_URL = "/assets/images/horizon.svg";
+    const DEFAULT_DESCRIPTION = "Startup Landing Page.";
 
     const SEO = {
         icon: icon || DEFAULT_ICON_URL,
-        title: "Horizon",
+        title: title || "Next.js Boilerplate",
         keywords: keywords || "",
         description: description || DEFAULT_DESCRIPTION,
         image: SITE_BASE_URL + (image || "/assets/site-metaimage.png"),
@@ -30,7 +30,7 @@ export default function SEO({ icon, title, keywords, description, image }: SEOPr
         <Head>
             <title>{SEO.title}</title>
 
-            <link rel="icon" href={SEO.icon} />
+            <link rel="icon"  href={SEO.icon} />
             <meta name="keywords" content={SEO.keywords} />
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 

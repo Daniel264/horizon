@@ -17,7 +17,7 @@ export default function Home() {
     return (
         <SmoothScrolling>
             <div className="">
-                <SEO title="Home" />
+                <SEO title="Horizon — Startup Landing Page" />
 
                 <main className="flex min-h-screen flex-col items-center ">
                     {/* <div className="m-auto w-full max-w-8xl"> */}
