@@ -1,4 +1,7 @@
 import { Button } from "./Button";
+import { firstCardText } from "@/utilities/cardText";
+import { secondCardText } from "@/utilities/cardText";
+import { thirdCardText } from "@/utilities/cardText";
 
 interface PricingCardProps {
     tag: string;
@@ -17,12 +20,17 @@ export const PricingCard = ({ tag, price, buttonText, buttonBackground }: Pricin
                 </div>
             </div>
             <div className="w-full">
+                {firstCardText.map((item) => (
+                    <p key={item.id} className="text-lg font-medium">
+                        {item.text}
+                    </p>
+                ))}
+                {/* <p className="text-lg font-medium">Lorem, ipsum dolor.</p>
                 <p className="text-lg font-medium">Lorem, ipsum dolor.</p>
                 <p className="text-lg font-medium">Lorem, ipsum dolor.</p>
                 <p className="text-lg font-medium">Lorem, ipsum dolor.</p>
                 <p className="text-lg font-medium">Lorem, ipsum dolor.</p>
-                <p className="text-lg font-medium">Lorem, ipsum dolor.</p>
-                <p className="text-lg font-medium">Lorem, ipsum dolor.</p>
+                <p className="text-lg font-medium">Lorem, ipsum dolor.</p> */}
             </div>
             <Button backgroundColor={buttonBackground} color={buttonText}>
                 Get notified
