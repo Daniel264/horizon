@@ -21,7 +21,7 @@ export const PricingCard = ({ tag, price, buttonText, buttonBackground, cardText
                     {badge && <Badge>best value</Badge>}
                 </div>
                 <div className="text-4xl font-bold">
-                    ${price} <span className="text-[#9CA3AF]">/mo</span>
+                    ${price},99 <span className="text-[#9CA3AF]">/mo</span>
                 </div>
             </div>
             <div className="w-full space-y-3">

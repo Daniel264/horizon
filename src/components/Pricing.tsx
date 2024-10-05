@@ -21,9 +21,9 @@ export const Pricing = () => {
                 {/* <div></div>
                 <div></div>
                 <div></div> */}
-                <PricingCard tag={"Explorer"} price={499} buttonText={"text-black"} buttonBackground={"bg-cream"} cardText={firstCardText} badge={false} />
-                <PricingCard tag={"Innovator"} price={1999} buttonText={"text-white"} buttonBackground={"bg-purple-400"} cardText={secondCardText} badge={true} tagColor="text-[#8B5CF6]"/>
-                <PricingCard tag={"Visionary"} price={4999} buttonText={"text-black"} buttonBackground={"bg-cream"} cardText={thirdCardText} badge={false} />
+                <PricingCard tag={"Explorer"} price={49} buttonText={"text-black"} buttonBackground={"bg-cream"} cardText={firstCardText} badge={false} />
+                <PricingCard tag={"Innovator"} price={19} buttonText={"text-white"} buttonBackground={"bg-purple-400"} cardText={secondCardText} badge={true} tagColor="text-[#8B5CF6]"/>
+                <PricingCard tag={"Visionary"} price={49} buttonText={"text-black"} buttonBackground={"bg-cream"} cardText={thirdCardText} badge={false} />
             </div>
             <div className="flex flex-row space-x-7 text-[#8B5CF6]">
                 <div className="flex">
