@@ -19,7 +19,7 @@ export default function SEO({ icon, title, keywords, description, image }: SEOPr
 
     const SEO = {
         icon: icon || DEFAULT_ICON_URL,
-        title: title,
+        title: "Horizon",
         keywords: keywords || "",
         description: description || DEFAULT_DESCRIPTION,
         image: SITE_BASE_URL + (image || "/assets/site-metaimage.png"),

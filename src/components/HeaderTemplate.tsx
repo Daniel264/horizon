@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "./Button";
+import Image from "next/image";
 
 interface HeaderTemplateProps {
     useHeader: boolean;
@@ -8,8 +9,8 @@ interface HeaderTemplateProps {
 export const HeaderTemplate = ({ useHeader }: HeaderTemplateProps) => {
     return (
         <div className={` sticky top-0 flex h-fit w-full items-center justify-between z-50 bg-[#fff] px-3 py-5 md:px-12`}>
-            <div>
-                <h1 className="text-2xl font-bold">Horizon</h1>
+            <div className="flex">
+                <h1 className="text-2xl font-bold"><Image src={"/assets/images/horizon.svg"} alt={""} width={100} height={100}/>Horizon</h1>
             </div>
             {useHeader ? (
                 <div className="hidden lg:flex">
