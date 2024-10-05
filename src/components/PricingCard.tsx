@@ -9,14 +9,15 @@ interface PricingCardProps {
     buttonBackground: string;
     cardText: { id: number; text: string }[];
     badge: boolean;
+    tagColor?: string;
 }
 
-export const PricingCard = ({ tag, price, buttonText, buttonBackground, cardText, badge }: PricingCardProps) => {
+export const PricingCard = ({ tag, price, buttonText, buttonBackground, cardText, badge, tagColor }: PricingCardProps) => {
     return (
         <div className="flex h-[450px] w-[380px]  flex-col items-center  justify-between rounded-badge border-2 border-gray-400 border-opacity-10 p-8 shadow">
-            <div className="text-center">
+            <div className="text-center space-y-2">
                 <div className="inline-flex">
-                    <p className=" font-semibold uppercase pr-3">{tag}</p>
+                    <p className={` font-semibold pr-3 ${tagColor || 'text-black'}`}>{tag}</p>
                     {badge && <Badge>best value</Badge>}
                 </div>
                 <div className="text-4xl font-bold">
