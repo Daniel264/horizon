@@ -24,12 +24,6 @@ export const PricingCard = ({ tag, price, buttonText, buttonBackground, cardText
                         {item.text}
                     </p>
                 ))}
-                {/* <p className="text-lg font-medium">Lorem, ipsum dolor.</p>
-                <p className="text-lg font-medium">Lorem, ipsum dolor.</p>
-                <p className="text-lg font-medium">Lorem, ipsum dolor.</p>
-                <p className="text-lg font-medium">Lorem, ipsum dolor.</p>
-                <p className="text-lg font-medium">Lorem, ipsum dolor.</p>
-                <p className="text-lg font-medium">Lorem, ipsum dolor.</p> */}
             </div>
             <Button backgroundColor={buttonBackground} color={buttonText}>
                 Get notified
