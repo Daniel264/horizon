@@ -1,7 +1,7 @@
 import { Blog } from "@/components/Blog";
 import { Button } from "@/components/Button";
 import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
+import { HeaderTemplate } from "@/components/HeaderTemplate";
 import { Hero } from "@/components/Hero";
 import { Pricing } from "@/components/Pricing";
 import { Quest } from "@/components/Quest";
@@ -25,7 +25,7 @@ export default function Home() {
                     <h3 className="my-5 text-5xl font-semibold">Home</h3>
                 </div>
             */}
-                <Header />
+                <HeaderTemplate />
                 <Hero />
                 {/* <ServicesTemplate /> */}
                 <Services />
@@ -35,6 +35,7 @@ export default function Home() {
                 <Pricing />
                 <Blog />
                 <Footer />
+                <HeaderTemplate />
             </main>
         </div>
     );
