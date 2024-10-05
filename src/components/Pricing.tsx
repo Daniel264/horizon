@@ -1,5 +1,8 @@
 import { Badge } from "./Badge";
 import { PricingCard } from "./PricingCard";
+import { firstCardText } from "@/utilities/cardText";
+import { secondCardText } from "@/utilities/cardText";
+import { thirdCardText } from "@/utilities/cardText";
 
 export const Pricing = () => {
     return (
@@ -17,9 +20,9 @@ export const Pricing = () => {
                 {/* <div></div>
                 <div></div>
                 <div></div> */}
-                <PricingCard tag={"Explorer"} price={499} buttonText={"text-black"} buttonBackground={"bg-cream"} />
-                <PricingCard tag={"Innovator"} price={1999} buttonText={"text-white"} buttonBackground={"bg-purple-400"} />
-                <PricingCard tag={"Visionary"} price={4999} buttonText={"text-black"} buttonBackground={"bg-cream"} />
+                <PricingCard tag={"Explorer"} price={499} buttonText={"text-black"} buttonBackground={"bg-cream"} cardText={firstCardText} />
+                <PricingCard tag={"Innovator"} price={1999} buttonText={"text-white"} buttonBackground={"bg-purple-400"} cardText={secondCardText} />
+                <PricingCard tag={"Visionary"} price={4999} buttonText={"text-black"} buttonBackground={"bg-cream"} cardText={thirdCardText} />
             </div>
         </div>
     );

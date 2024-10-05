@@ -1,16 +1,15 @@
 import { Button } from "./Button";
-import { firstCardText } from "@/utilities/cardText";
-import { secondCardText } from "@/utilities/cardText";
-import { thirdCardText } from "@/utilities/cardText";
+
 
 interface PricingCardProps {
     tag: string;
     price: number;
     buttonText: string;
     buttonBackground: string;
+    cardText: { id: number; text: string }[];
 }
 
-export const PricingCard = ({ tag, price, buttonText, buttonBackground }: PricingCardProps) => {
+export const PricingCard = ({ tag, price, buttonText, buttonBackground, cardText }: PricingCardProps) => {
     return (
         <div className="flex h-[450px] w-[380px] flex-col items-center  justify-between rounded-badge border-2 border-black border-opacity-10 p-8">
             <div className="text-center">
@@ -20,7 +19,7 @@ export const PricingCard = ({ tag, price, buttonText, buttonBackground }: Pricin
                 </div>
             </div>
             <div className="w-full">
-                {firstCardText.map((item) => (
+                {cardText.map((item) => (
                     <p key={item.id} className="text-lg font-medium">
                         {item.text}
                     </p>
