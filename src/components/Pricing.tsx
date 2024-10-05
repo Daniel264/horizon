@@ -13,11 +13,13 @@ export const Pricing = () => {
                     <p className="text-[#9CA3AF]">Choose a plan</p>
                 </h1>
             </div>
-            <div>
+            <div className="flex flex-col gap-5 md:flex-row">
                 {/* <div></div>
                 <div></div>
                 <div></div> */}
-                <PricingCard />
+                <PricingCard tag={"Explorer"} price={499} buttonText={"text-black"} buttonBackground={"bg-cream"} />
+                <PricingCard tag={"Innovator"} price={1999} buttonText={"text-white"} buttonBackground={"bg-purple-400"} />
+                <PricingCard tag={"Visionary"} price={4999} buttonText={"text-black"} buttonBackground={"bg-cream"} />
             </div>
         </div>
     );
