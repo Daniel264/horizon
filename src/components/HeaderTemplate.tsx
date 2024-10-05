@@ -7,7 +7,7 @@ interface HeaderTemplateProps {
 
 export const HeaderTemplate = ({ useHeader }: HeaderTemplateProps) => {
     return (
-        <div className={`fixed top-0 flex h-fit w-full items-center justify-between bg-[#fff] px-3 py-5 md:px-12`}>
+        <div className={` sticky top-0 flex h-fit w-full items-center justify-between z-50 bg-[#fff] px-3 py-5 md:px-12`}>
             <div>
                 <h1 className="text-2xl font-bold">Horizon</h1>
             </div>
