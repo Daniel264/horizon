@@ -7,7 +7,7 @@ interface HeaderTemplateProps {
 
 export const HeaderTemplate = ({ useHeader }: HeaderTemplateProps) => {
     return (
-        <div className="flex h-fit w-full items-center justify-between px-3 py-5 md:px-12">
+        <div className={`flex sticky top-0 bg-[#fff] h-fit w-full items-center justify-between px-3 py-5 md:px-12`}>
             <div>
                 <h1 className="text-2xl font-bold">Horizon</h1>
             </div>
@@ -26,11 +26,11 @@ export const HeaderTemplate = ({ useHeader }: HeaderTemplateProps) => {
             ) : (
                 <div className="hidden lg:flex">
                     Design by{" "}
-                    <a className="text-gray-500 hover:text-black" href="https://twitter.com/AndreaMontini">
+                    <a className="px-2 text-gray-500 hover:text-black" href="https://twitter.com/AndreaMontini">
                         Andrea Montini
                     </a>{" "}
                     | Development by{" "}
-                    <a className="text-gray-500 hover:text-black" href="https://x.com/DanielOlatinsu">
+                    <a className="px-2 text-gray-500 hover:text-black" href="https://x.com/DanielOlatinsu">
                         Daniel Olatinsu
                     </a>
                 </div>

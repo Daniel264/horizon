@@ -25,7 +25,7 @@ export default function Home() {
                     <h3 className="my-5 text-5xl font-semibold">Home</h3>
                 </div>
             */}
-                <HeaderTemplate />
+                <HeaderTemplate useHeader={true} />
                 <Hero />
                 {/* <ServicesTemplate /> */}
                 <Services />
@@ -35,7 +35,7 @@ export default function Home() {
                 <Pricing />
                 <Blog />
                 <Footer />
-                <HeaderTemplate />
+                <HeaderTemplate useHeader={false} />
             </main>
         </div>
     );
