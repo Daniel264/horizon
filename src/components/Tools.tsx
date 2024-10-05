@@ -45,7 +45,7 @@ export const Tools = () => {
                 <div className="flex flex-row gap-3 lg:flex-col">
                     <div className="flex h-[200px] w-[200px] flex-col  rounded-badge border-2 border-black border-opacity-10 p-5 text-left">
                         <div className="h-full w-full">
-                            <Image src={""} alt={""} width={40} height={40} />
+                            <Image src={"/assets/logo/confluence.svg"} alt={""} width={40} height={40} />
                         </div>
                         <p className="text-xl font-semibold">Confluence</p>
                         <p className="font-medium text-[#4B5563]">Plan your life</p>
