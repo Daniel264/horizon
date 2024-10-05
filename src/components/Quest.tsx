@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Quest = () => {
     return (
-        <div className="flex min-h-screen w-full flex-col items-center justify-center space-y-10 bg-[#F9FAFB] py-10">
+        <section className="flex min-h-screen w-full flex-col items-center justify-center space-y-10 bg-[#F9FAFB] py-10">
             <div className="flex  flex-col justify-center text-center">
                 <div className="flex w-full justify-center">
                     <Badge>Features</Badge>
@@ -31,6 +31,6 @@ export const Quest = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Tools = () => {
     return (
-        <div className="flex flex-col lg:flex-row min-h-screen w-full items-center justify-center px-5 py-10 gap-5 lg:gap-0">
+        <section className="flex flex-col lg:flex-row min-h-screen w-full items-center justify-center px-5 py-10 gap-5 lg:gap-0">
             <div className="flex w-full flex-col items-center">
                 <div className="flex w-[78%] flex-col items-center space-y-5">
                     <div>
@@ -89,6 +89,6 @@ export const Tools = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };

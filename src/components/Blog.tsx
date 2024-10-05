@@ -5,7 +5,7 @@ import { Button } from "./Button";
 
 export const Blog = () => {
     return (
-        <div className="min-h-screen w-full items-center justify-center px-3 py-10 text-center md:px-10">
+        <section className="min-h-screen w-full items-center justify-center px-3 py-10 text-center md:px-10">
             <div className="w-[88%] mx-auto flex flex-col h-full justify-center">
                 <div className="pb-10 lg:pb-14 flex justify-between h-full w-full items-center">
                     <div>
@@ -26,7 +26,7 @@ export const Blog = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

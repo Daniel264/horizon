@@ -4,7 +4,7 @@ import { Button } from "./Button";
 
 export const Footer = () => {
     return (
-        <div className="bg-[#F3F4F6] p-20">
+        <section className="bg-[#F3F4F6] p-20">
             <footer className="flex min-h-screen bg-white rounded-2xl w-full flex-col items-center justify-center text-center space-y-10">
                 <div className="h-full w-full items-center text-center justify-center space-y-8">
                     <div className="w-full flex justify-center">
@@ -25,6 +25,6 @@ export const Footer = () => {
                     <Image src={"/assets/images/footer-image.svg"} alt={"Image of Horizon's dashboard"} height={500} width={500} className="h-full w-full" />
                 </div>
             </footer>
-        </div>
+        </section>
     );
 };
