@@ -1,3 +1,4 @@
+import { Badge } from "./Badge";
 import { Button } from "./Button";
 import Image from "next/image";
 
@@ -7,13 +8,17 @@ interface PricingCardProps {
     buttonText: string;
     buttonBackground: string;
     cardText: { id: number; text: string }[];
+    badge: boolean;
 }
 
-export const PricingCard = ({ tag, price, buttonText, buttonBackground, cardText }: PricingCardProps) => {
+export const PricingCard = ({ tag, price, buttonText, buttonBackground, cardText, badge }: PricingCardProps) => {
     return (
         <div className="flex h-[450px] w-[380px]  flex-col items-center  justify-between rounded-badge border-2 border-gray-400 border-opacity-10 p-8 shadow">
             <div className="text-center">
-                <p className=" font-semibold uppercase">{tag}</p>
+                <div className="inline-flex">
+                    <p className=" font-semibold uppercase pr-3">{tag}</p>
+                    {badge && <Badge>best value</Badge>}
+                </div>
                 <div className="text-4xl font-bold">
                     ${price} <span className="text-[#9CA3AF]">/mo</span>
                 </div>
