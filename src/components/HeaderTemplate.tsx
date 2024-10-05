@@ -8,9 +8,10 @@ interface HeaderTemplateProps {
 
 export const HeaderTemplate = ({ useHeader }: HeaderTemplateProps) => {
     return (
-        <div className={` sticky top-0 flex h-fit w-full items-center justify-between z-50 bg-[#fff] px-3 py-5 md:px-12`}>
-            <div className="flex -space-x-20">
-            <Image src={"/assets/images/horizon.svg"} alt={""} width={120} height={100}/><h1 className="text-2xl font-bold">Horizon</h1>
+        <div className={` sticky top-0 z-50 flex h-fit w-full items-center justify-between bg-[#fff] px-3 py-5 md:px-12`}>
+            <div className="flex -space-x-7 w-fit h-fit justify-center items-center">
+                <Image src={"/assets/images/horizon.svg"} alt={""} width={120} height={100} />
+                <h1 className="text-2xl font-bold">Horizon</h1>
             </div>
             {useHeader ? (
                 <div className="hidden lg:flex">
