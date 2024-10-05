@@ -6,7 +6,7 @@ import { thirdCardText } from "@/utilities/cardText";
 
 export const Pricing = () => {
     return (
-        <div className="flex min-h-screen w-full flex-col items-center justify-center bg-[#F3F4F6]">
+        <div className="flex min-h-screen w-full flex-col items-center justify-center bg-[#F3F4F6] bg-[url('/assets/images/pricing-background.svg')] bg-left bg-no-repeat">
             <div className="flex w-full flex-col items-center justify-center text-center">
                 <div>
                     <Badge>Pricing</Badge>
