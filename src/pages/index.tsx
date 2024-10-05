@@ -11,32 +11,35 @@ import { Services } from "@/components/Services";
 import { ServicesTemplate } from "@/components/ServicesTemplate";
 import { Tools } from "@/components/Tools";
 import React from "react";
+import SmoothScrolling from "@/components/SmoothScroll";
 
 export default function Home() {
     return (
-        <div className="">
-            <SEO title="Home" />
+        <SmoothScrolling>
+            <div className="">
+                <SEO title="Home" />
 
-            <main className="flex min-h-screen flex-col items-center ">
-                {/* <div className="m-auto w-full max-w-8xl"> */}
-                {/* 
+                <main className="flex min-h-screen flex-col items-center ">
+                    {/* <div className="m-auto w-full max-w-8xl"> */}
+                    {/* 
                 <div className="max-w-8xl m-auto">
                 
                     <h3 className="my-5 text-5xl font-semibold">Home</h3>
                 </div>
             */}
-                <HeaderTemplate useHeader={true} />
-                <Hero />
-                {/* <ServicesTemplate /> */}
-                <Services />
-                <Recommendation />
-                <Quest />
-                <Tools />
-                <Pricing />
-                <Blog />
-                <Footer />
-                <HeaderTemplate useHeader={false} />
-            </main>
-        </div>
+                    <HeaderTemplate useHeader={true} />
+                    <Hero />
+                    {/* <ServicesTemplate /> */}
+                    <Services />
+                    <Recommendation />
+                    <Quest />
+                    <Tools />
+                    <Pricing />
+                    <Blog />
+                    <Footer />
+                    <HeaderTemplate useHeader={false} />
+                </main>
+            </div>
+        </SmoothScrolling>
     );
 }
