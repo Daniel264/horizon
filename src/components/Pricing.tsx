@@ -3,10 +3,11 @@ import { PricingCard } from "./PricingCard";
 import { firstCardText } from "@/utilities/cardText";
 import { secondCardText } from "@/utilities/cardText";
 import { thirdCardText } from "@/utilities/cardText";
+import Image from "next/image";
 
 export const Pricing = () => {
     return (
-        <div className="flex min-h-screen w-full flex-col items-center justify-center bg-[#F3F4F6] bg-[url('/assets/images/pricing-background.svg')] bg-left bg-no-repeat">
+        <div className="flex min-h-screen w-full flex-col items-center justify-center gap-20 bg-[#F3F4F6] bg-[url('/assets/images/pricing-background.svg')] bg-left bg-no-repeat">
             <div className="flex w-full flex-col items-center justify-center text-center">
                 <div>
                     <Badge>Pricing</Badge>
@@ -23,6 +24,20 @@ export const Pricing = () => {
                 <PricingCard tag={"Explorer"} price={499} buttonText={"text-black"} buttonBackground={"bg-cream"} cardText={firstCardText} />
                 <PricingCard tag={"Innovator"} price={1999} buttonText={"text-white"} buttonBackground={"bg-purple-400"} cardText={secondCardText} />
                 <PricingCard tag={"Visionary"} price={4999} buttonText={"text-black"} buttonBackground={"bg-cream"} cardText={thirdCardText} />
+            </div>
+            <div className="flex flex-row space-x-7 text-[#8B5CF6]">
+                <div className="flex">
+                    <Image src={"/assets/images/checkbox.svg"} alt={""} width={23} height={23} />
+                    Free Trial
+                </div>
+                <div className="flex">
+                    <Image src={"/assets/images/checkbox.svg"} alt={""} width={23} height={23} />
+                    Cancel Anytime
+                </div>
+                <div className="flex">
+                    <Image src={"/assets/images/checkbox.svg"} alt={""} width={23} height={23} />
+                    Support Included
+                </div>
             </div>
         </div>
     );
