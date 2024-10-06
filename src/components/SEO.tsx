@@ -12,7 +12,7 @@ export interface SEOProp {
 export default function SEO({ icon, title, keywords, description, image }: SEOProp) {
     const router = useRouter();
 
-    const SITE_BASE_URL = "https://nextjs-boilertemplate.com";
+    const SITE_BASE_URL = "https://horizon-amber-zeta.vercel.app";
 
     const DEFAULT_ICON_URL = "/assets/logo/horizon.svg";
     const DEFAULT_DESCRIPTION = "Startup Landing Page.";
