@@ -15,7 +15,7 @@ export default function SEO({ icon, title, keywords, description, image }: SEOPr
     const SITE_BASE_URL = "https://horizon-amber-zeta.vercel.app";
 
     const DEFAULT_ICON_URL = "/assets/logo/horizon.svg";
-    const DEFAULT_DESCRIPTION = "Startup Landing Page.";
+    const DEFAULT_DESCRIPTION = "This is a website I built for Fintech Startups to showcase their innovative solutions tailored to meet the evolving needs of their clients.";
 
     const SEO = {
         icon: icon || DEFAULT_ICON_URL,
@@ -30,7 +30,7 @@ export default function SEO({ icon, title, keywords, description, image }: SEOPr
         <Head>
             <title>{SEO.title}</title>
 
-            <link rel="icon"  href={SEO.icon} />
+            <link rel="icon" href={SEO.icon} />
             <meta name="keywords" content={SEO.keywords} />
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 
