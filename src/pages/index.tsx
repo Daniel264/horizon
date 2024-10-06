@@ -36,7 +36,7 @@ export default function Home() {
                     <Tools />
                     <Pricing />
                     <Blog />
-                    {/* <Footer /> */}
+                    <Footer />
                     <HeaderTemplate useHeader={false} />
                 </main>
             </div>
