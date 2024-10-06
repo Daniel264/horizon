@@ -11,7 +11,7 @@ export const Tools = () => {
                         <Badge>Integrations</Badge>
                     </div>
                     <div className="space-y-5">
-                        <h1 className="text-6xl font-semibold">
+                        <h1 className="text-5xl md:text-6xl font-semibold">
                             Smart <span className="text-[#8B5CF6]">integrations</span> at your fingertips
                         </h1>
                         <p className="font-medium text-[#374151]">Our open API and robust integration framework ensures a smooth connection with the tools you rely on daily, creating a unified ecosystem for unparalleled efficiency.</p>
