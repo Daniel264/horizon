@@ -117,8 +117,8 @@ export const ServicesTemplate = ({ image, title, text, useHeader, reverse, lower
                         opacity: 1,
                         y: 0,
                         transition: {
-                            duration: 0.9,
-                            delay: 0.6,
+                            duration: 0.6,
+                            delay: 0.3,
                             ease: [0.44, 0, 0, 1],
                         },
                     }}
