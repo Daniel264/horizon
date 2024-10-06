@@ -16,7 +16,7 @@ export const Footer = () => {
                     <p className="font-medium text-[#374151]">
                         Experience the synergy of your favorite tools working seamlessly <br /> together, all powered by Horizon&apos;s cutting-edge AI analytics.{" "}
                     </p>
-                    <div className="flex flex-col md:flex-row w-full justify-center space-x-5">
+                    <div className="flex items-center space-y-5 flex-col md:flex-row w-full justify-center space-x-5">
                         <input type="email" name="email" placeholder="yourmail@gmail.com" id="email" className="rounded-lg bg-[#E5E7EB] px-16 py-3" />
                         <Button backgroundColor={"bg-[#8B5CF6]"} color={"text-white"}>
                             Notify me
