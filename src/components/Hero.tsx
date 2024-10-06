@@ -22,7 +22,7 @@ export const Hero = () => {
                             amount: "some",
                             once: true,
                         }}
-                        className=" text-5xl font-semibold text-[#8B5CF6] lg:text-7xl "
+                        className=" text-5xl font-semibold text-[#8B5CF6] lg:text-7xl px-5"
                     >
                         Insightful trends <br />
                         <span className="text-black">

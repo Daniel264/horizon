@@ -36,7 +36,7 @@ export const ServicesTemplate = ({ image, title, text, useHeader, reverse, lower
     return (
         <div className="flex min-h-screen w-full flex-col items-center justify-center pt-16">
             {useHeader && (
-                <header className="w-[80%] text-center text-4xl font-semibold sm:text-5xl lg:text-6xl">
+                <header className="w-[80%] text-center text-5xl font-semibold lg:text-6xl">
                     <motion.h1
                         initial={{
                             opacity: 0,

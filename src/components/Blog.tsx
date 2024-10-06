@@ -5,7 +5,7 @@ import { Button } from "./Button";
 
 export const Blog = () => {
     return (
-        <section className="min-h-screen w-full items-center justify-center px-3 py-10 text-center md:px-10">
+        <section className="min-h-screen w-full items-center justify-center px-5 py-10 text-center md:px-10">
             <div className="mx-auto flex h-full w-full flex-col items-center justify-center lg:w-[88%]">
                 <div className="flex h-full w-full flex-col items-center justify-between space-y-5 pb-10 md:flex-row lg:pb-14">
                     <div>
