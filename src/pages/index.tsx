@@ -19,7 +19,7 @@ export default function Home() {
             <div className="">
                 <SEO title="Horizon — Startup Landing Page" />
 
-                <main className="flex min-h-screen flex-col items-center bg-white text-black">
+                <main className="flex min-h-screen w-full flex-col items-center bg-white text-black">
                     {/* <div className="m-auto w-full max-w-8xl"> */}
                     {/* 
                 <div className="max-w-8xl m-auto">
@@ -36,7 +36,7 @@ export default function Home() {
                     <Tools />
                     <Pricing />
                     <Blog />
-                    <Footer />
+                    {/* <Footer /> */}
                     <HeaderTemplate useHeader={false} />
                 </main>
             </div>
