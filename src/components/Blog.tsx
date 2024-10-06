@@ -18,8 +18,8 @@ export const Blog = () => {
                 </div>
                 <div className="flex h-full w-full flex-col flex-wrap items-stretch justify-center gap-5 lg:flex-row">
                     {BlogContent.map((item) => (
-                        <div key={item.title} className="mx-auto flex h-full w-[400px] flex-col items-center justify-center gap-3 lg:mx-0">
-                            <Image src={item.src} alt={item.alt} width={400} className="h-[300px] w-[400px]" height={400} />
+                        <div key={item.title} className="mx-auto flex h-full md:w-[400px] flex-col items-center justify-center gap-3 lg:mx-0">
+                            <Image src={item.src} alt={item.alt} width={400} className="h-[300px] w-[340px] md:w-[400px]" height={400} />
                             <div>
                                 <Badge>{item.badge}</Badge>
                                 <h2 className="text-xl font-bold">{item.title}</h2>
