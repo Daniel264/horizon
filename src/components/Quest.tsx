@@ -9,7 +9,7 @@ export const Quest = () => {
                 <div className="flex w-full justify-center">
                     <Badge>Features</Badge>
                 </div>
-                <h1 className="text-6xl font-semibold">
+                <h1 className="text-5xl md:text-6xl font-semibold">
                     Essentially our quest<span className="block text-[#9CA3AF]">here at horizon</span>
                 </h1>
             </div>
